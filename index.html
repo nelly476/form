@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@400;500;600&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <p class="credit">Photo by Rohit Tabdon on Unsplash</p>  -->
+    <form action="get" class="container">
+      <div class="header">
+        <p>
+          This is not a real online service! Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Necessitatibus, commodi!
+        </p>
+        <p style="padding-top: 0">
+          Sign up <em><b>now</b></em> to get started.
+        </p>
+
+        <p>
+          You <em><b>know</b></em> you want to.
+        </p>
+      </div>
+
+      <p style="padding: 35px; background-color: white; margin: 0">
+        Let's do this!
+      </p>
+      <div class="info">
+        <p>
+          <label for="fname">FIRST NAME</label>
+          <input type="text" name="fname" required id="fname" />
+        </p>
+
+        <p>
+          <label for="lname">LAST NAME</label>
+          <input type="text" name="lname" required id="lname" />
+        </p>
+
+        <p>
+          <label for="email">EMAIL</label>
+          <input type="email" name="email" required id="email" />
+        </p>
+
+        <p>
+          <label for="number">PHONE NUMBER</label>
+          <input type="tel" name="number" required id="number" />
+        </p>
+
+        <p>
+          <label for="psw">PASSWORD</label>
+          <input type="password" name="psw" required id="psw" />
+        </p>
+
+        <p>
+          <label for="pswCnfrm">CONFIRM PASSWORD</label>
+          <input type="password" name="pswCnfrm" required id="pswCnfrm" />
+        </p>
+      </div>
+
+      <div class="footer">
+        <input type="submit" class="btn" value="Create Account" ></input>
+        <p>
+          Already have an account?
+          <a href="https://github.com/nelly476">Log in</a>
+        </p>
+      </div>
+    </form>
+  </body>
+</html>
