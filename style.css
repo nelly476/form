@@ -94,3 +94,9 @@ a:visited {
   background-color: rgba(8, 17, 46, 0.69);
   cursor: pointer;
 }
+
+input[type="password"]:invalid {
+  border: 1px solid #d55c5f;
+  color: #d55c5f;
+  box-shadow: none;
+}

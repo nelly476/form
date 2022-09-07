@@ -14,6 +14,7 @@
     />
     <title>Sign-up form</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <!-- <p class="credit">Photo by Rohit Tabdon on Unsplash</p>  -->
@@ -58,13 +59,14 @@
 
         <p>
           <label for="psw">PASSWORD</label>
-          <input type="password" name="psw" required id="psw" />
+          <input type="password" name="psw" required id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" />
         </p>
 
         <p>
-          <label for="pswCnfrm">CONFIRM PASSWORD</label>
-          <input type="password" name="pswCnfrm" required id="pswCnfrm" />
+          <label for="pswConfirm">CONFIRM PASSWORD</label>
+          <input type="password" name="pswConfirm" required id="pswConfirm" />
         </p>
+
       </div>
 
       <div class="footer">
