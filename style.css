@@ -83,22 +83,9 @@ a:visited {
   font-weight: bold;
 }
 
-.form-row input[type="text"]:invalid,
-.form-row input[type="email"]:invalid {
-  border: 1px solid #d55c5f;
-  color: #d55c5f;
-  box-shadow: none;
-}
-
 .btn:hover {
   background-color: rgba(8, 17, 46, 0.69);
   cursor: pointer;
-}
-
-input[type="password"]:invalid {
-  border: 1px solid #d55c5f;
-  color: #d55c5f;
-  box-shadow: none;
 }
 
 .credit {
@@ -106,4 +93,5 @@ input[type="password"]:invalid {
   left: 15%;
   bottom: 0;
   color: white;
+  text-shadow: 3px 4px 3px #333333;
 }
